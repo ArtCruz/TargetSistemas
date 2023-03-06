@@ -20,9 +20,9 @@ public class Teste_04 {
         for(double valor : valoresDistribuidora.values()){
             soma += valor;
         }
-        System.out.println("---"+soma+"---");
+        System.out.println("O Faturamento Total é de: R$"+soma);
 
-        for(Map.Entry vd : valoresDistribuidora.entrySet()){
+        for(Map.Entry<String,Double> vd : valoresDistribuidora.entrySet()){
 
             Object estado = vd.getKey();
             

@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Teste_05 {
@@ -19,5 +18,7 @@ public class Teste_05 {
             textoInvertido += vtr[i];
         }
         System.out.println("Invertendo a palavra fica: "+textoInvertido);
+
+        scan.close();
     }
 }

@@ -10,7 +10,6 @@ public class Teste_02 {
         boolean pertenceFibonacci = false;
         int primTermo = 0;
         int segTermo = 1;
-        int cont = 0;
 
         String txt = "0, 1";
 
@@ -37,7 +36,8 @@ public class Teste_02 {
         else{
             System.out.println("O número escolhido NÃO pertence a Sequencia de Fibonacci");
         }
-    }
+
+        scan.close();    }
 
 }
     
